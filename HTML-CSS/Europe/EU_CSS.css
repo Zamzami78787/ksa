@@ -1,0 +1,117 @@
+*, body, html{
+  margin:0;
+  padding:0;
+  font:1.01em "open sana", sans-serif;
+ 
+}
+  
+body{
+	   background-color:#F4FF01 ;
+}
+
+.menu{
+       position:fixed;
+	   z-index:95;
+	   box-shadow:1px 3px 1px rgb (0, 255, 255);
+	   width:100%;
+	   height:60px;
+	   background-color:none;
+	   color:##00FFFF;
+	 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,ffffff+51,ffffff+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+
+
+}
+.menu #logo{
+	float: left;
+	height: 60px;
+	padding: 0;
+	line-height:0;
+	font-size:1em;
+}
+.menu > ul {
+	margin:0;
+	padding:0;
+	font:right;
+	list-style-type:none;
+	
+}
+.menu >ul >li {
+	float: right;
+	
+}	
+.menu-item {
+	display: inline-block;
+	padding: 15px 8px;
+	height:30px;
+	line-height: 30px;
+	color:#21565B;
+}
+.menu-item:hover{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff1a00+0,ff1a00+100;Red+Flat+%231 */
+background: rgb(255,26,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,26,0,1) 0%, rgba(255,26,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#ff1a00',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+.sub-content{
+	position:absolute;
+	top: 60px;
+	overflow: hidden;
+	background-color: #01031420;
+	max-height:0;
+}
+.sub-content a{
+	color: #156;
+	text-decoration: none;
+}
+.sub-drop{
+	padding:0;
+	width:100%;
+	margin:0;
+	list-style-type:none;
+	
+}
+.sub-drop ul li a{
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+.sub-drop ul li a:hover {
+	background-color: #eee156;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffff88+0,ffff88+100;Yellow+Flat+%231 */
+background: rgb(255,255,136); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,136,1) 0%, rgba(255,255,136,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 */
+
+
+
+
+	
+}
+.menu-item:focus{
+	background-color:#ee1320;
+}
+.menu ul li:hover .sub-content{
+	max-height:2500px;
+	transition:max-height 1s ease-in;
+	-moz-transition:max-height 1s ease-in;
+	-webkit-transition:max-height 1s ease-in;
+	
+	
+}

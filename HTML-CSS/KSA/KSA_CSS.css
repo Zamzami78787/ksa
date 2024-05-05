@@ -1,0 +1,107 @@
+*, body, html{
+  margin:0;
+  padding:0;
+  font:1em "open sana", sans-serif;
+ 
+}
+  
+body{
+	   background-color:#eee;
+}
+
+.menu{
+       position:fixed;
+	   z-index:95;
+	   box-shadow:1px 3px 1px rgba (0, 0, 0, 0.5);
+	   width:100%;
+	   height:60px;
+	   background-color:none;
+	   color:#858578;
+	 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b7deed+0,71ceef+50,9fd1e0+51,b7deed+100 */
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(top,  #b7deed 0%, #71ceef 50%, #9fd1e0 51%, #b7deed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b7deed 0%,#71ceef 50%,#9fd1e0 51%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b7deed 0%,#71ceef 50%,#9fd1e0 51%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+
+
+}
+.menu #logo{
+	float: left;
+	height: 60px;
+	padding: 0;
+	line-height:0;
+	font-size:1em;
+}
+.menu > ul {
+	margin:0;
+	padding:0;
+	font:right;
+	list-style-type:none;
+	
+}
+.menu >ul >li {
+	float: right;
+	
+}	
+.menu-item {
+	display: inline-block;
+	padding: 15px 8px;
+	height:30px;
+	line-height: 30px;
+	color:#156;
+}
+.menu-item:hover{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffbad2+21,fbdf93+100 */
+background: #ffbad2; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffbad2 21%, #fbdf93 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffbad2 21%,#fbdf93 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffbad2 21%,#fbdf93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbad2', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+}
+.sub-content{
+	position:absolute;
+	top: 60px;
+	overflow: hidden;
+	background-color: #01031420;
+	max-height:0;
+}
+.sub-content a{
+	color: #156;
+	text-decoration: none;
+}
+.sub-drop{
+	padding:0;
+	width:100%;
+	margin:0;
+	list-style-type:none;
+	
+}
+.sub-drop ul li a{
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+.sub-drop ul li a:hover {
+	background-color: #eee156;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9b0098+0,edb3f2+41,d33fce+100 */
+background: #9b0098; /* Old browsers */
+background: -moz-linear-gradient(top,  #9b0098 0%, #edb3f2 41%, #d33fce 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #9b0098 0%,#edb3f2 41%,#d33fce 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #9b0098 0%,#edb3f2 41%,#d33fce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b0098', endColorstr='#d33fce',GradientType=0 ); /* IE6-9 */
+
+
+	
+}
+.menu-item:focus{
+	background-color:#ee1320;
+}
+.menu ul li:hover .sub-content{
+	max-height:2500px;
+	transition:max-height 1s ease-in;
+	-moz-transition:max-height 1s ease-in;
+	-webkit-transition:max-height 1s ease-in;
+	
+	
+}
